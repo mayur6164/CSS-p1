@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+
+/* <main> start  */
+main {
+    /* border: 1px solid black; */
+    /* background-color: rgb(139, 126, 126); */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* <main> end  */
+
+
+/* <nav> start  */
+nav {
+    /* border-bottom: 1px solid black; */
+    font-size: 2rem;
+    width: 100%;
+    /* height: 6rem; */
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    i {
+        color: white;
+        background-color: black;
+        padding: 1rem;
+        border-radius: 50%;
+    }
+}
+
+/* <nav> end  */
+
+
+/* <header> start  */
+header {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 17rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
+
+
+    h1 {
+        font-weight: 500;
+    }
+}
+
+/* <header> end  */
+
+
+/* .section-1 starts  */
+#section-1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: fit-content;
+    padding-inline: 1rem;
+    font-size: 1.41rem;
+    padding-bottom: 2rem;
+
+    #para-cont {
+        /* border: 1px solid black; */
+        width: 100%;
+        max-width: 35rem;
+    }
+
+    #links-parent {
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding-right: 1rem;
+
+
+        #links-cont {
+            /* border: 1px solid black; */
+            width: 80%;
+            margin-top: 3rem;
+            max-width: 35rem;
+
+
+
+            .elem {
+                max-width: 35rem;
+                width: 100%;
+                border-top: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-block: 1rem;
+
+                &:hover i {
+                    opacity: 1;
+                    transition: .5s ease-in;
+                }
+
+                a {
+                    color: #565757;
+                    font-size: 2rem;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: black;
+                        text-decoration: underline;
+                    }
+
+                    &:active i {
+                        opacity: 1;
+                    }
+
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    opacity: 0;
+                }
+            }
+
+        }
+
+    }
+}
+
+/* .section-1 ends  */
+
+
+/* .section-2 starts  */
+#section-2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 34.8%;
+    background-color: crimson;
+    background: url(https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?q=80&w=2001&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* .section-2 ends  */
